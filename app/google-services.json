@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831425760793",
+    "project_id": "mad-mini-project-25fc7",
+    "storage_bucket": "mad-mini-project-25fc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831425760793:android:996c033e2e296ad3abe488",
+        "android_client_info": {
+          "package_name": "com.example.suwa_arana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831425760793-2gui5uhcg5mmgrkhvato3u6e9mj5dj0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKfRPYXfi91wrKccoJNTt9xb6z9268cTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831425760793-2gui5uhcg5mmgrkhvato3u6e9mj5dj0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
