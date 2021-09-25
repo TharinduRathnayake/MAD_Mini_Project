@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SUWA_ARANA">
         <activity
-            android:name=".MainActivity"
+            android:name=".AppoinmentsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChannelActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity
+
             android:name=".showDoctor"
             android:exported="true" />
         <activity
@@ -26,6 +30,78 @@
             android:exported="true">
 
         </activity>
+
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </application>
 
 </manifest>
