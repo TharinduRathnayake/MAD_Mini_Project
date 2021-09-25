@@ -12,8 +12,10 @@
         <entry key="..\:/MAD_Mini_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26666666666666666" />
         <entry key="..\:/MAD_Mini_Project/app/src/main/res/drawable/ic_phone_24.xml" value="0.26666666666666666" />
         <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_appoinments.xml" value="0.1" />
-        <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_register_form.xml" value="0.1" />
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_sing_in.xml" value="0.25416666666666665" />
         <entry key="..\:/SUWA_ARANA/app/src/main/res/layout/activity_main.xml" value="0.259375" />
       </map>
     </option>
