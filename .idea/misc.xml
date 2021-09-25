@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/drawable/btn_dbg.xml" value="0.16944444444444445" />
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/drawable/ic_name.xml" value="0.1" />
+        <entry key="..\:/MAD_Mini_Project/app/src/main/res/layout/activity_register_form.xml" value="0.264" />
         <entry key="..\:/SUWA_ARANA/app/src/main/res/layout/activity_main.xml" value="0.259375" />
       </map>
     </option>
