@@ -49,7 +49,7 @@ public class showDoctor extends AppCompatActivity {
     }
 
     public void showData(){
-        db.collection("Documents").get()
+        db.collection("DoctorR").get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {

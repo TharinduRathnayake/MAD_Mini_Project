@@ -44,7 +44,7 @@ public class MyDoctorR extends RecyclerView.Adapter<MyDoctorR.MyviewHolder> {
     }
     public void deleteData(int position){
         ModelD item = mList.get(position);
-        db.collection("Documents").document(item.getId()).delete()
+        db.collection("DoctorR").document(item.getId()).delete()
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
