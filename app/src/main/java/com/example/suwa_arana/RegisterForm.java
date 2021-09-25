@@ -102,7 +102,7 @@ public class RegisterForm extends AppCompatActivity {
 
     }
     private void updateToFireStore(String id, String name, String license, String email, String gender, String pnumber, String speciality, String language){
-        db.collection("Documents").document(id).update("name", name, "license", license, "email", email, "gender", gender, "pnumber", pnumber, "speciality", speciality, "language", language)
+        db.collection("DoctorR").document(id).update("name", name, "license", license, "email", email, "gender", gender, "pnumber", pnumber, "speciality", speciality, "language", language)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
@@ -133,7 +133,7 @@ public class RegisterForm extends AppCompatActivity {
             map.put("speciality", speciality);
             map.put("language", language);
 
-            db.collection("Documents").document(id).set(map)
+            db.collection("DoctorR").document(id).set(map)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
