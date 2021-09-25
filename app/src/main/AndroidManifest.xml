@@ -22,10 +22,20 @@
             </intent-filter>
         </activity>
         <activity
+
+            android:name=".showDoctor"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterForm"
+            android:exported="true">
+
+        </activity>
+
             android:name=".MainActivity"
             android:exported="true">
 
         </activity>
+
 
 
 
