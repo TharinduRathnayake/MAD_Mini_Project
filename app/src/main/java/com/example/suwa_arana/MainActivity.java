@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         calculation = "Result:" +bodyFat;
 
+
+
+        
         tv_calculate.setText(calculation);
     }
 }
