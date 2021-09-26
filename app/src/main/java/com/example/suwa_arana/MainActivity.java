@@ -1,59 +1,52 @@
-package com.example.suwa_arana;
+package com.example.bodyfatcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
-import com.google.firebase.auth.FirebaseAuth;
+import static java.lang.Math.log10;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button drRegister;
-    private Button drChanneling;
-    private Button signOut;
-    private FirebaseAuth mAuth;
+    EditText age,neck,waist,hip;
+    TextView tv_calculate;
+    String calculation;
+    Button btn_calculate;
 
 
-
-
-    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        drRegister = findViewById(R.id.dr_register);
-        drChanneling = findViewById(R.id.dr_channeling);
-        signOut = findViewById(R.id.btn_signOut);
-        mAuth = FirebaseAuth.getInstance();
+        age = findViewById(R.id.et_age);
+        neck = findViewById(R.id.et_neck);
+        waist = findViewById(R.id.et_waist);
+        hip = findViewById(R.id.et_hip);
+        tv_calculate = findViewById(R.id.tv_calculate);
+        btn_calculate=findViewById(R.id.btn_calculate);
+    }
+    public void CalculateBodyFat(View view) {
+        String st1 = age.getText().toString();
+        String st4 = neck.getText().toString();
+        String st5 = waist.getText().toString();
+        String st6 = hip.getText().toString();
 
-        signOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mAuth.signOut();
-                startActivity(new Intent(MainActivity.this, SingIn.class));
-                finish();
-            }
-        });
+        float ageValue = Float.parseFloat(st1);
+        float neckValue = Float.parseFloat(st4);
+        float waistValue = Float.parseFloat(st5);
+        float hipValue = Float.parseFloat(st6);
 
-        drRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, RegisterForm.class));
-            }
-        });
+        //circumference value of body fat
+        float bodyFat = (waistValue+hipValue)-neckValue;
 
-        drChanneling.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ChannelActivity.class));
-            }
-        });
+        calculation = "Result:" +bodyFat;
 
-
-
+        tv_calculate.setText(calculation);
     }
 }
