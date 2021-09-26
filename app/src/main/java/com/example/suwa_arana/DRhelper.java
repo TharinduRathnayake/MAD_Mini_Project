@@ -49,3 +49,16 @@ public class DRhelper extends ItemTouchHelper.SimpleCallback {
         super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
