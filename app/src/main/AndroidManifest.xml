@@ -49,6 +49,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+<<<<<<< HEAD
+=======
+
+            <activity
+                android:name=".bmractivity"
+                android:exported="true" />
+            <activity
+                android:name=".splash"
+                android:exported="true" />
+>>>>>>> ad740fcfae92fa624e77bfbe589d7be53506c091
         </activity>
 
         <activity
