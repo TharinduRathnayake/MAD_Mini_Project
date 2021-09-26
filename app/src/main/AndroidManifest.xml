@@ -53,10 +53,25 @@
             </intent-filter>
 
 
+
         </activity>
 
 
 
+
+
+        <activity android:name=".VShowActivity"
+            android:exported="true" >
+
+        </activity>
+
+        <activity android:name=".Registration"
+            android:exported="true" >
+
+
+
+
+        </activity>
 
 
 
