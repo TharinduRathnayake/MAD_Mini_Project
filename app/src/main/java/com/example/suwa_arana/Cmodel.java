@@ -1,7 +1,6 @@
 package com.example.suwa_arana;
 
 
-
 public class Cmodel {
 
     String id, date, name, gender, age, phone, disease, doctor;
